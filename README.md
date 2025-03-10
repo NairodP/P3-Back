@@ -75,6 +75,8 @@ Then you can import the schema:
 
 copy / past the content of the file `ressources/sql/script.sql` in the frontend repo.
 
+Tips: If you want, you can use MySql Workbench to simplify the management of your database.
+
 ## API Documentation
 
 ### SWAGGER
