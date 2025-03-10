@@ -54,6 +54,27 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+## Install the database
+
+The application uses a MySQL database. You can find the database schema in the `database` directory. (the file is in the frontend repository)
+You can create your database with the following command:
+
+```bash
+CREATE DATABASE chatop_db;
+```
+
+Here "chatop_db" is the name of the database. You can use any name you want.
+
+After creating the database, you have to USE it:
+
+```bash
+USE chatop_db;
+```
+
+Then you can import the schema:
+
+copy / past the content of the file `ressources/sql/script.sql` in the frontend repo.
+
 ## API Documentation
 
 ### SWAGGER
@@ -66,6 +87,3 @@ http://localhost:3001/api/swagger-ui/index.html#/
 
 You can also import the Postman collection from the `postman` directory (the file is in the frontend repository) to test the API endpoints.
 
-### Database
-
-The application uses a MySQL database. You can find the database schema in the `database` directory. (the file is in the frontend repository)
