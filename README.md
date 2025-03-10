@@ -64,5 +64,8 @@ http://localhost:3001/api/swagger-ui/index.html#/
 
 ### POSTMAN
 
-You can also import the Postman collection from the `postman` directory (the file is on the front repository) to test the API endpoints.
+You can also import the Postman collection from the `postman` directory (the file is in the frontend repository) to test the API endpoints.
 
+### Database
+
+The application uses a MySQL database. You can find the database schema in the `database` directory. (the file is in the frontend repository)
